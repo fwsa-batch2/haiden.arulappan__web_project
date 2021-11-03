@@ -1,0 +1,40 @@
+p{
+    font-size: 30px;
+ }
+ .image{
+    background-color:transparent ;
+    position: absolute;
+    margin-top: -70%;
+    margin-left:-40%;
+ }
+ .hotel{
+     background-color: transparent;
+     position: absolute;
+     margin-top: -70%;
+     margin-left: 22%;
+ }
+ .taj{
+     background-color:transparent ;
+     position: absolute;
+     margin-top: -40%;
+     margin-left: -40%;
+ }
+ .turyaa{
+     background-color: transparent;
+     position: absolute;
+     margin-top: -40%;
+     margin-left: 22%;
+ }
+ .twist{
+     background-color: transparent;
+     position: absolute;
+     margin-top: -27%;
+     margin-left: 39%;
+ }
+ .sangeetha{
+     background-color: transparent;
+     position: absolute;
+     margin-top: -27%;
+     margin-left: 70%;
+ }
+ 
