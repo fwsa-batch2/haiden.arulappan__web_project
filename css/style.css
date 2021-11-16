@@ -37,7 +37,7 @@
     background-color: transparent;
     position: absolute;
     margin-left: 28%;
-    margin-top: -28%;
+    margin-top: -30%;
  }
 .class2{
    width: 50%;
@@ -91,4 +91,47 @@
    position: absolute;
    margin-top: -27%;
    margin-left: 70%;
+}
+.image1{
+   margin-left: 10%;
+}
+ .room1{
+   margin-left: 3%;
+   margin-top: -1%;
+   position: absolute;
+} 
+.room2{
+   position: absolute;
+   margin-top: -2.3%;
+   margin-left: 20%;
+}
+.room3{
+   position: absolute;
+   margin-top: -2.3%;
+   margin-left: 35%;
+}
+.room4{
+   position: absolute;
+   margin-top: -2.3%;
+   margin-left: 48%;
+}
+.room5{
+   position: absolute;
+   margin-top: -2.3%;
+   margin-left: 63%;
+}
+.room6{
+   position: absolute;
+   margin-top: -2.3%;
+   margin-left: 73%;
+}
+.image1 h1{
+   font-size: 2vw;
+   margin-left: 35%;
+   margin-top: 2%;
+
+}
+.add{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.5vw;
 }
