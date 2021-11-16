@@ -37,4 +37,12 @@ p{
      margin-top: -27%;
      margin-left: 70%;
  }
+ .center a{
+     text-decoration: none;
+     font-size: 2vw;
+     color: black;
+ }
+ .center a:hover{
+     color: red;
+ }
  
