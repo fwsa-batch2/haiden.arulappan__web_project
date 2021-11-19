@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.box{
+    width: 90%;
+    height: 70%;
+    background-image: url('../Images/him.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 5%;
+}
+.box .sign .first{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    padding-left: 70%;
+}
+.box .sign .first:hover{
+    color: blue;
+}
+.box .sign .second{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    padding-left: 77%;
+}

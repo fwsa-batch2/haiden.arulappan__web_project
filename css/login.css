@@ -1,0 +1,135 @@
+body{
+    background-image:url("../Images/loginmain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box{
+    width: 30%;
+    height: 75vh;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 24px;
+    box-shadow:  0 10px 10px 10px;
+}
+h1{
+    color: white;
+    font-family: fantasy;
+    font-size: 2.5vw;
+    margin-left: 37%;
+    margin-top: 3%;
+}
+.box img{
+    padding-left: 36%;
+    padding-top: 5%;
+}
+.box .login{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+/* .box .login th{
+    font-size: 1.5vw;
+}
+.box .login td input{
+    position: absolute;
+    margin-left: -7.5%;
+    margin-top: 1%;
+    width: 20%;
+    height: 5vh;
+    border-radius: 20px;
+}
+.box .login td{
+    padding-top: 15%;
+} */
+.form label{
+    font-size: 1.8vw;
+}
+#Haiden{
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px;
+}
+.form1 label{
+    font-size: 1.8vw;
+}
+#gmail{
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px;   
+}
+.form2{
+    font-size: 1.8vw;
+}
+#secret{
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px;   
+}
+input[type="submit"]{
+    width: 30%;
+    height: 5vh;
+    margin-top: 3%;
+    margin-left: 20%;
+    border-radius: 30px;
+    font-size: 2.5vh;
+    background-color: greenyellow;
+} 
+input[type="submit"]:hover{
+    background-color: red;
+}
+.box .login a{
+    color: black;
+    font-size: 1vw;
+    margin-left: 20%;
+    font-size: 1.2vw;
+}
+.box .login a:hover{
+    color: brown;
+}
+.box p{
+    font-size:1.5vw;
+}
+.box .login p a{
+    font-size: 1.2vw;
+    margin-left: 5%;
+}
+.forget{
+    width: 30%;
+    height: 55vh;
+    margin-left: 33%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 10px 10px 10px;
+}
+.forget p{
+    font-size: 1.9vw;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+.forget h3{
+    font-size: 1.5vw;
+    padding-left: 25%;
+}
+#mail{
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px; 
+}
+.login1{
+    padding-left: 15%;
+}
+#otp{
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px; 
+}
+.account{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -4%;
+    font-size: 1.2vw;
+}
+.account a:hover{
+    color: brown;
+}
