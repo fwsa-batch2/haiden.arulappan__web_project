@@ -4,25 +4,368 @@ body{
 .box{
     width: 90%;
     height: 70%;
-    background-image: url('../Images/him.jpg');
+    background-image: url('../Images/him2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     margin-left: 5%;
 }
-.box .sign .first{
+.box .first{
+    text-decoration: none;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-left: 70%;
+    color: white;
+}
+.box .first:hover{
+    text-decoration:underline;
+    text-decoration-color: tomato;
+}
+.box .second{
     text-decoration: none;
     font-size: 1.5vw;
     color: white;
     position: absolute;
-    padding-left: 70%;
+    margin-left: 77%;
 }
-.box .sign .first:hover{
-    color: blue;
+.box .second:hover{
+    text-decoration:underline;
+    text-decoration-color: red;
 }
-.box .sign .second{
+.hotel1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vw;
+    position: absolute;
+    color: white;
+    margin-top: 7%;
+    margin-left: 23%;
+}
+.hotel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vw;
+    position: absolute;
+    color: white;
+    margin-top: 13%;
+    margin-left: 32%;
+}
+.sub{
+    font-size: 1.3vw;
+    color:white;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 23%;
+}
+.box1{
+    width:90%;
+    height: 50%;
+    background-color: black;
+    margin-left: 5%;
+}
+.hotel2{
+    font-family: fantasy;
+    font-size: 4.5vw;
+    color: white;
+    margin-left: 17%;  
+}
+.image1 img{
+     position: absolute;
+     margin-left: 13%;
+}
+.image1 p{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 8%;
+    margin-left: 13%;
+}
+.image2 img{
+    position: absolute;
+    margin-left:33% ;
+}
+.image2 p{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 8%;
+    margin-left: 33%;
+}
+.image3 img{
+    position: absolute;
+    margin-left: 53%;
+}
+.image3 p{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 8%;
+    margin-left:53%;
+}
+.image4 img{
+    position: absolute;
+    margin-left: 73%;
+}
+.image4 p{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 8%;
+    margin-left:73%;
+}
+.bottom{
+    width:90%;
+    height: 50%;
+    background-color: rgb(196, 226, 238);
+    margin-left: 5%;
+}
+.bottom h1{
+    font-size: 4vw;
+    padding-top:4%;
+    padding-left: 38%;
+}
+.para1{
+    position: absolute;
+    font-family: cursive;
+    font-size: 1.8vw;
+    padding-left: 15%;
+}
+.para2{
+    position: absolute;
+    font-family: cursive;
+    font-size: 1.8vw;
+    padding-left: 38%;
+}
+.para3{
+    position: absolute;
+    font-family: cursive;
+    font-size: 1.8vw;
+    padding-left: 60%;
+}
+.mostbottom{
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+}
+.mostbottom h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3vw;
+    color: white;
+    padding-left: 5%;
+}
+.mostbottom p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding-left: 5%;
+}
+.link1{
+   text-decoration: none;
+   font-size: 1.5vw;
+   color: white;
+   padding-left: 10%;
+}
+.link1:hover{
+    color: red;
+}
+.link2{
     text-decoration: none;
     font-size: 1.5vw;
     color: white;
-    position: absolute;
-    padding-left: 77%;
+    padding-left: 20%;
+ }
+ .link2:hover{
+     color: red;
+ }
+ .link3{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 20%;
+ }
+ .link3:hover{
+    color: red;
 }
+.link4{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 20%;
+ }
+ .link4:hover{
+    color: red;
+}
+.link5{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 10%;
+ }
+ .link5:hover{
+    color: red;
+ }
+ .link6{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 13.7%;
+ }
+ .link6:hover{
+    color: red;
+ }
+ .link7{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 18%;
+ }
+ .link7:hover{
+    color: red;
+ }
+ .link8{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 17%;
+ }
+ .link8:hover{
+    color: red;
+ }
+ .link9{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 10%;
+ }
+ .link9:hover{
+    color: red;
+ }
+ .link10{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 17%;
+ }
+ .link10:hover{
+    color: red;
+ }
+ .link11{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 18%;
+ }
+ .link11:hover{
+    color: red;
+ }
+ .link12{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 17%;
+ }
+ .link12:hover{
+    color: red;
+ }
+ .link13{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 10%;
+ }
+ .link13:hover{
+    color: red;
+ }
+ .link14{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 21%;
+ }
+ .link14:hover{
+    color: red;
+ }
+ .link15{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 17%;
+ }
+ .link15:hover{
+    color: red;
+ }
+ .link16{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 17%;
+ }
+ .link16:hover{
+    color: red;
+ }
+ .link17{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 10%;
+ }
+ .link17:hover{
+    color: red;
+ }
+ .link18{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 18%;
+ }
+ .link18:hover{
+    color: red;
+ }
+ .link19{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 18%;
+ }
+ .link19:hover{
+    color: red;
+ }
+ .link20{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    padding-left: 19%;
+ }
+ .link20:hover{
+    color: red;
+ }
+ .topmostbottom{
+     width: 90%;
+     height: 70%;
+     margin-left: 5%;
+     background-color: white;
+     margin-bottom: 3%;
+ }
+ .most{
+     width:60%;
+     height: 69%;
+     background-color:rgb(196, 226, 238);
+     position: absolute;
+     margin-top: -20.6%;
+ }
+ .topmostbottom a{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 7%;
+    font-size: 2vw;
+    text-decoration: none;
+    color: gray;
+ }
+ .topmostbottom a:hover{
+    color: black;
+ }
+ .most p{
+    color: rgb(240, 10, 10);
+    font-size: 6vw;
+    margin-left: 10%;
+ }
+
+ 
+ 
