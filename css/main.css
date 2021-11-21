@@ -31,6 +31,33 @@ body{
     text-decoration:underline;
     text-decoration-color: red;
 }
+.box button{
+   position: absolute;
+   width: 15%;
+   height: 5%;
+   font-size: 1.5vw;
+   border-radius: 5px;
+   margin-top: 23%;
+   margin-left: 35%;
+   box-shadow: 0 0 3px 6px;
+}
+.box button:hover{
+     background-color: red;
+}
+.font{
+   position: absolute;
+   font-size: 1.5vw;
+   color: white;
+   margin-top: 28%;
+   margin-left: 18%;
+}
+.font1{
+   position: absolute;
+   font-size: 1.5vw;
+   color: white;
+   margin-top: 31%;
+   margin-left: 35%;
+}
 .hotel1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4vw;
