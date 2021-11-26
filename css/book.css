@@ -69,3 +69,83 @@ button:hover{
     margin-top: 42%;
     margin-left: 25%;
 }
+.font4{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    margin-left: 55%;
+    margin-top: 44%;
+}
+.button1{
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    font-size: 2vw;
+    border-radius: 15px;
+    margin-left: 65%;
+    margin-top: 60%;
+}
+.img6{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 75%;
+}
+.font5{
+    position: absolute;
+    color: tomato;
+    font-size: 3vw;
+    margin-top: 76%;
+    margin-left:25% ;
+}
+.font6{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    margin-left: 55%;
+    margin-top: 79%;
+}
+.button2{
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    font-size: 2vw;
+    border-radius: 15px;
+    margin-left: 65%;
+    margin-top: 96%;
+}
+.img7{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 110%;
+}
+.font7{
+    position: absolute;
+    color: tomato;
+    font-size: 3vw;
+    margin-top: 112%;
+    margin-left:22% ;
+}
+.font8{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    margin-left: 55%;
+    margin-top: 115%;
+}
+.button3{
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    font-size: 2vw;
+    border-radius: 15px;
+    margin-left: 65%;
+    margin-top: 132%;
+}
+.back button{
+    width: 10%;
+    height: 10%;
+    font-size: 2vw;
+    margin-top: 142%;
+    margin-left: 45%;
+    border-radius: 10px;
+}
