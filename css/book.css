@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 3.5vw;
+    margin-left: 38%;
+}
+.image{
+    margin-top: 5%;
+}
+.img1{
+    position: absolute;
+    margin-left:1%;
+}
+.img2{
+    position: absolute;
+    margin-left: 35%;
+}
+.img3{
+    position: absolute;
+    margin-left: 69%;
+}
+.font{
+    color: white;
+    margin-top: 32%;
+    font-size: 2vw;
+}
+.img4{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.font1{
+    position: absolute;
+    color: tomato;
+    font-size: 3vw;
+    margin-left: 25%;
+    margin-top: 6%;
+}
+.font2{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    margin-left: 55%;
+    margin-top: 7%;
+}
+button{
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    font-size: 2vw;
+    border-radius: 15px;
+    margin-left: 65%;
+    margin-top: 23%;
+}
+button:hover{
+    background-color: skyblue;
+}
+.img5{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 40%;
+}
+.font3{
+    position: absolute;
+    color: tomato;
+    font-size: 3vw;
+    margin-top: 42%;
+    margin-left: 25%;
+}
