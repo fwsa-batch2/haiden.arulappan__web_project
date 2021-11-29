@@ -1,7 +1,5 @@
 body{
-    background-image:url("../Images/loginmain.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+   background-color: black;
 }
 .box{
     width: 30%;
