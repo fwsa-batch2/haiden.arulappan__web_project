@@ -9,7 +9,8 @@
       <div class="login">
         <form onsubmit="submitFunction()">
           <div class="form">
-            <input type="text" id="username" placeholder="User Name" minlength="5" pattern="[A-Za-z]{3,15}" required />
+            <input type="text" id="username" placeholder="User Name" minlength="5"
+             pattern="[A-Za-z]{3,15}" title="Name cannot be empty" required />
           </div>
           <br /><br /><br />
           <div class="form1">
@@ -23,9 +24,7 @@
           <div class="form3">
             <input
               type="password"
-              id="create"
-              minlength="8"
-              maxlength="12"
+              id="create"         
               placeholder="Create password"
               pattern="[A-Za-z0-9]{5,12}"
               title="Suggest some strong password"
@@ -37,8 +36,6 @@
             <input
               type="password"
               id="conform"
-              minlength="8"
-              maxlength="12"
               placeholder="Confirm password"
               pattern="[A-Za-z0-9]{5,12}"
               title="Suggest some strong password"

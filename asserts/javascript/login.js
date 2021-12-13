@@ -5,16 +5,17 @@ function login() {
     let gmail = document.getElementById("gmail").value;
     let password = document.getElementById("secret").value;
 
-    let customer_details = JSON.parse(localStorage.getItem("customerdetails"));
+    let customer_details = JSON.parse(localStorage.getItem("fullarray"));
 
 
     let exists = false;
 
-    for (i = 0; i < customer_details.length; i++) {
+
+    for (i = 0; i < customer_details; i++) {
 
         let email = customer_details[i].Gmail;
-        let userpassword = customer_details[i].Confirm;
-        console.log(email)
+        let userpassword = customer_details[i].Create;
+
 
         if (gmail == email && password == userpassword) {
             exists = true;
@@ -23,11 +24,11 @@ function login() {
     }
 
 
-    if (exists) {
-        window.location.href = "../index.html"
+    if (exists == true) {
+        document.getElementById("alert").innerText = "Invalid password (or) email"
     }
     else {
-        document.getElementById("alert").innerText = "Invalid password (or) email"
+        window.location.href = "../index.html"
     }
 
 

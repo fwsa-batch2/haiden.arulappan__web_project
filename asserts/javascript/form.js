@@ -19,7 +19,7 @@ function submitFunction() {
     let confirmpassword = document.getElementById("conform").value.trim();
     const emailexists = emailvalid(email);
 
-    const namevalid = validation();
+    // const namevalid = validation();
 
     if (createpassword != confirmpassword) {
         alert("Password mismatched");

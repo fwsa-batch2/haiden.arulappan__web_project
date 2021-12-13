@@ -1,5 +1,7 @@
 body{
-   background-color: rgb(80, 74, 74);
+   background-image:url('./../Images/himform1.jpeg');
+   background-repeat: no-repeat;
+   background-size: 100%;
 }
 .box{
     width: 30%;
