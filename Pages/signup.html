@@ -28,7 +28,7 @@
               maxlength="12"
               placeholder="Create password"
               pattern="[A-Za-z0-9]{5,12}"
-              title=""
+              title="Suggest some strong password"
               required
             />
           </div>
@@ -41,11 +41,14 @@
               maxlength="12"
               placeholder="Confirm password"
               pattern="[A-Za-z0-9]{5,12}"
+              title="Suggest some strong password"
               required
             />
           </div>
           <br /><br />
-          <input type="checkbox" id="checking" onchange="checkbox()">
+          <div class = "password">
+          <input type="checkbox" id="checking" onchange="checkbox()">Show password
+          </div>
           <div class="checkbox">
             <input type="checkbox" required />I agree the terms and condition
           </div>
