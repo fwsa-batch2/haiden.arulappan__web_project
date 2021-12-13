@@ -19,6 +19,8 @@ function submitFunction() {
     let confirmpassword = document.getElementById("conform").value.trim();
     const emailexists = emailvalid(email);
 
+    // const namevalid = validation();
+
     if (createpassword != confirmpassword) {
         alert("Password mismatched");
 
@@ -65,5 +67,18 @@ function checkbox() {
         document.getElementById("conform").type = "password";
     }
 }
+
+// function validation() {
+//     var name = document.getElementById("username").value;///get id with value 
+//     var usernamepattern = /^[A-Za-z]$/;////Regular expression
+//     if (usernamepattern == name) {
+//         document.getElementById("username").style.backgroundColor = 'yellow';
+//     }
+//     else {
+//         alert("please enter a valid name")
+//     }
+// }
+
+
 
 pageload();

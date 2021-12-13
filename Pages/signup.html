@@ -9,7 +9,7 @@
       <div class="login">
         <form onsubmit="submitFunction()">
           <div class="form">
-            <input type="text" id="username" placeholder="User Name" minlength="5"  required />
+            <input type="text" id="username" placeholder="User Name" minlength="5" pattern="[A-Za-z]{3,15}" required />
           </div>
           <br /><br /><br />
           <div class="form1">
@@ -27,6 +27,8 @@
               minlength="8"
               maxlength="12"
               placeholder="Create password"
+              pattern="[A-Za-z0-9]{5,12}"
+              title=""
               required
             />
           </div>
@@ -38,6 +40,7 @@
               minlength="8"
               maxlength="12"
               placeholder="Confirm password"
+              pattern="[A-Za-z0-9]{5,12}"
               required
             />
           </div>
