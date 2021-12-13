@@ -13,20 +13,20 @@ function submitFunction() {
     event.preventDefault();
 
     let name = document.getElementById("username").value.trim();
-    let email = document.getElementById("gmail").value.trim();
+    let email = document.getElementById("gmail").value.toLowerCase();
     let phnumber = document.getElementById("number").value;
     let createpassword = document.getElementById("create").value.trim();
     let confirmpassword = document.getElementById("conform").value.trim();
     const emailexists = emailvalid(email);
 
-    // const namevalid = validation();
+    const namevalid = validation();
 
     if (createpassword != confirmpassword) {
         alert("Password mismatched");
 
     }
     else if (emailexists) {
-        alert("email already exists");
+        alert("email already exists (or) Email is invalid");
     }
     else {
         const customer_details = {
