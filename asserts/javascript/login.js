@@ -1,13 +1,9 @@
 
 function login() {
     event.preventDefault();
-
     let email = document.getElementById("gmail").value;
     let password = document.getElementById("secret").value;
-
     const isexist = isuserexist(email, password);
-    console.log(isexist);
-
     if (isexist) {
         localStorage.setItem("loggedinuser", email);
         window.location.href = "./../../index.html"
@@ -17,10 +13,8 @@ function login() {
         return null;
     }
 }
-
 function isuserexist(paramemail, parampassword) {
     let isexist = false;
-
     const userdetails = JSON.parse(localStorage.getItem("userList"));
     const len = userdetails.length;
     console.log(len);
@@ -35,7 +29,6 @@ function isuserexist(paramemail, parampassword) {
         }
     }
     return isexist;
-
 }
 function checkbox() {
     let check = document.getElementById("checking");
@@ -46,6 +39,7 @@ function checkbox() {
         document.getElementById("secret").type = "password";
     }
 }
+
 
 
 
