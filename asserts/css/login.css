@@ -2,6 +2,7 @@ body{
     background-image:url("./../Images/himform2.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
+    position: sticky;
 }
 .box{
     width: 30%;
@@ -132,4 +133,18 @@ input[type="submit"]:hover{
 }
 .account a:hover{
     color: brown;
+}
+#marquee{
+    position: relative;
+    color: white;
+    font-size: 2vw;
+    animation: mymove 20s infinite;
+}
+@keyframes mymove{
+   0%{left:0%;color: white;}
+   25%{left:15%;color: rgb(255, 221, 71);}
+   50%{left:30%;color: yellowgreen;}
+   75%{left:50%;color: violet;}
+   100%{left: 65%;color: dodgerblue;}
+ 
 }

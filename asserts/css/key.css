@@ -64,7 +64,7 @@
 }
 @keyframes mymove{
     from{left:0px}
-    to{left:100px}
+    to{left:800px}
 }
 .pulse:hover, 
 .pulse:focus {
