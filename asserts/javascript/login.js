@@ -37,5 +37,15 @@ function isuserexist(paramemail, parampassword) {
     return isexist;
 
 }
+function checkbox() {
+    let check = document.getElementById("checking");
+    if (check.checked) {
+        document.getElementById("secret").type = "Text";
+    }
+    else {
+        document.getElementById("secret").type = "password";
+    }
+}
+
 
 
