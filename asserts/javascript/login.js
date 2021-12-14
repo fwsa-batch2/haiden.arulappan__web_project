@@ -2,36 +2,40 @@
 function login() {
     event.preventDefault();
 
-    let gmail = document.getElementById("gmail").value;
+    let email = document.getElementById("gmail").value;
     let password = document.getElementById("secret").value;
 
-    let customer_details = JSON.parse(localStorage.getItem("fullarray"));
+    const isexist = isuserexist(email, password);
+    console.log(isexist);
 
+    if (isexist) {
+        localStorage.setItem("loggedinuser", email);
+        window.location.href = "./../../index.html"
+    }
+    else {
+        alert("invalid email or password");
+        return null;
+    }
+}
 
-    let exists = false;
+function isuserexist(paramemail, parampassword) {
+    let isexist = false;
 
+    const userdetails = JSON.parse(localStorage.getItem("userList"));
+    const len = userdetails.length;
+    console.log(len);
 
-    for (i = 0; i < customer_details; i++) {
-
-        let email = customer_details[i].Gmail;
-        let userpassword = customer_details[i].Create;
-
-
-        if (gmail == email && password == userpassword) {
-            exists = true;
+    for (i = 0; i < len; i++) {
+        const user = userdetails[i];
+        const useremail = user.Gmail;
+        const userpassword = user.Create;
+        if (useremail === paramemail && userpassword === parampassword) {
+            isexist = true;
             break;
         }
     }
-
-
-    if (exists == true) {
-        document.getElementById("alert").innerText = "Invalid password (or) email"
-    }
-    else {
-        window.location.href = "../index.html"
-    }
-
-
-
+    return isexist;
 
 }
+
+
