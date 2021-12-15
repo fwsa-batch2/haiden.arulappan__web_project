@@ -45,12 +45,25 @@ input:hover{
         border-color: black;
         font-size: 2vw;
 }
+#children{
+    border-radius:30px;
+    border-style: outset;
+    width: 15%;
+    height: 7%;
+    outline: none;
+    background-color: rgb(250, 248, 248);
+    color: black;
+    margin-top:5%;
+    text-align: center;
+    border-color: black;
+    font-size: 2vw;
+}
 #result:hover{
         width:20%;
         height:8%;
         box-shadow: 0 0 1px 2px;
 }
-#date{
+#date1{
         border-radius:30px;
         border-style: outset;
         width: 35%;
@@ -62,6 +75,19 @@ input:hover{
         text-align: center;
         border-color: black;
         font-size: 1vw;
+}
+#date2{
+    border-radius:30px;
+    border-style: outset;
+    width: 35%;
+    height: 7%;
+    outline: none;
+    background-color: rgb(250, 248, 248);
+    color: black;
+    margin-top:5%;
+    text-align: center;
+    border-color: black;
+    font-size: 1vw;
 }
 #submit{
     border-radius: 10px;
