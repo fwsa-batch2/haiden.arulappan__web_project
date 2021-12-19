@@ -66,6 +66,11 @@ input:hover{
         border-color: black;
         font-size: 2vw;
 }
+#adult:hover{
+    width:20%;
+    height:8%;
+    box-shadow: 0 0 1px 2px;
+}
 #children{
     border-radius:30px;
     border-style: outset;
@@ -78,6 +83,11 @@ input:hover{
     text-align: center;
     border-color: black;
     font-size: 2vw;
+}
+#children:hover{
+    width:20%;
+    height:8%;
+    box-shadow: 0 0 1px 2px;
 }
 #result:hover{
         width:20%;
@@ -97,6 +107,11 @@ input:hover{
         border-color: black;
         font-size: 1vw;
 }
+#date1:hover{
+    width:40%;
+    height:8%;
+    box-shadow: 0 0 1px 2px;
+}
 #date2{
     border-radius:30px;
     border-style: outset;
@@ -109,6 +124,11 @@ input:hover{
     text-align: center;
     border-color: black;
     font-size: 1vw;
+}
+#date2:hover{
+    width:40%;
+    height:8%;
+    box-shadow: 0 0 1px 2px;
 }
 #submit{
     border-radius: 10px;
