@@ -4,13 +4,16 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+/* image{
+    filter: 20px;
+} */
 .box{
-    background-color: rgb(191, 187, 212);
+   filter: blur();
     width: 30%;
     margin-left: 31%;
     border-radius: 20px;
-    box-shadow: 0 0 3px 6px;
-    color: rgb(3, 3, 5);
+    box-shadow: 0 0 1px 1px;
+    color: rgb(253, 253, 255);
     padding-left: 8%;
     font-size: 2vw;
 }
@@ -21,7 +24,7 @@ input{
     height: 7%;
     outline: none;
     background-color: rgb(250, 248, 248);
-    color: black;
+    color: rgb(5, 4, 4);
     margin-top:5%;
     text-align: center;
     border-color: black;
@@ -32,6 +35,24 @@ input:hover{
     height: 8%;
     box-shadow: 0 0 1px 2px;
 } 
+#rooms{
+    border-radius:30px;
+    border-style: outset;
+    width: 15%;
+    height: 7%;
+    outline: none;
+    background-color: rgb(250, 248, 248);
+    color: black;
+    margin-top:5%;
+    text-align: center;
+    border-color: black;
+    font-size: 2vw;
+}
+#rooms:hover{
+    width:20%;
+    height:8%;
+    box-shadow: 0 0 1px 2px;
+}
 #adult{
         border-radius:30px;
         border-style: outset;

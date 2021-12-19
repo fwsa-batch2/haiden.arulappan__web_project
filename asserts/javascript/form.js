@@ -1,16 +1,18 @@
 let fullarray = [];
 
 function pageload() {
+    console.group("onpageload");
     const statgeon = JSON.parse(localStorage.getItem("userList"));
-    console.log(statgeon)
+    console.table(statgeon);
     if (statgeon != null) {
         fullarray = statgeon;
     }
-
+    console.groupEnd("onpageload");
 }
 
 function submitFunction() {
     event.preventDefault();
+    console.group("submithandler");
 
     let name = document.getElementById("username").value.trim();
     let email = document.getElementById("gmail").value.toLowerCase();
@@ -18,6 +20,7 @@ function submitFunction() {
     let createpassword = document.getElementById("create").value.trim();
     let confirmpassword = document.getElementById("conform").value.trim();
     const emailexists = emailvalid(email);
+    console.log(emailexists);
 
     // const namevalid = validation();
 
@@ -39,7 +42,9 @@ function submitFunction() {
         fullarray.push(customer_details);
         localStorage.setItem("userList", JSON.stringify(fullarray))
         window.location.href = "../index.html";
+        console.table(customer_details);
     }
+    console.groupEnd("submithandler");
 
 };
 
