@@ -1,0 +1,675 @@
+[
+    {
+        "roomNo": 1,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "king": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "booked"
+    },
+    {
+        "roomNo": 2,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "king": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "booked"
+    },
+    {
+        "roomNo": 3,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 4,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "rollaway": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 5,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "cribs": 1,
+            "futon": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 6,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "king": 2,
+            "sofa": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 7,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "king": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 8,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "queen": 1,
+            "double": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 9,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "king": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "booked"
+    },
+    {
+        "roomNo": 10,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 4,
+            "sofa": 3,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 11,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "double": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 12,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "sofa": 1,
+            "twin": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 13,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 14,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 15,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "sofa": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 16,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 1,
+            "doubles": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 17,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "king": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 18,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "king": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 19,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "sofa": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 20,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 3
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 21,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 22,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "rollaway": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 23,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "cribs": 1,
+            "futon": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 24,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 4,
+        "min_occupany": 2,
+        "max_occupancy": 4,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 25,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "sofa": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 26,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 1,
+            "doubles": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 27,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "king": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 28,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "king": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 29,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "sofa": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 30,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 3
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 31,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 32,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "rollaway": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 33,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "cribs": 1,
+            "futon": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 34,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 35,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "sofa": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 36,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 1,
+            "doubles": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 37,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "king": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 38,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "king": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 39,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "sofa": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 40,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 3
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 41,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 42,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "rollaway": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 43,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "cribs": 1,
+            "futon": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 44,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 2,
+            "queen": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 45,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "sofa": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 46,
+        "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180222165343-who1965gr-158835-guest-room---wow-suite-bedroom-med-full-169.jpg&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Fbest-hotel-beds-where-to-buy%2Findex.html&tbnid=GB_PqW4sLTuVoM&vet=12ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB..i&docid=YwWvFTGBUAusmM&w=1600&h=900&itg=1&q=types%20of%20beds%20in%20hotel%20room&ved=2ahUKEwjc-aXxqvT0AhVPyKACHbqIA6cQMyg4egQIARBB",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 1,
+            "doubles": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 47,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.warehousehotel.com%2Fmanheim%2Fblog%2Fdifferent-bed-sizes-in-hotels&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABAv",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "king": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 48,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homestratosphere.com%2Ftypes-of-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA1",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 2,
+            "king": 2
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 49,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etravelweek.com%2Fwiki%2Ftypes-hotel-rooms&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABA7",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 1,
+            "sofa": 1
+        },
+        "price": 999,
+        "status": "open"
+    },
+    {
+        "roomNo": 50,
+        "images": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fg2528%2Fmost-expensive-hotel-beds%2F&psig=AOvVaw3rgQpKeVEYuEZQs57yws3f&ust=1640156943670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICb7Pqq9PQCFQAAAAAdAAAAABBH",
+        "no_of_rooms": 2,
+        "min_occupany": 1,
+        "max_occupancy": 2,
+        "beds": {
+            "total_beds": 3,
+            "twin": 3
+        },
+        "price": 999,
+        "status": "open"
+    }
+]

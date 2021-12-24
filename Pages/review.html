@@ -1,98 +1,62 @@
-<html>
-  <head>
-    <h1
-      style="
-        font-size: xx-large;
-        margin-left: 45%;
-        margin-top: 3%;
-        color: black;
-      "
-    >
-      REVIEW
-    </h1>
-    <style>
-      body {
-        background-image: url("../Images/review.jpeg");
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-      }
-    </style></head
-  ><br /><br /><br /><br />
-  <body>
-    <div
-      style="
-        background: rgb(197, 107, 126);
-        width: 50%;
-        font-size: 30px;
-        margin-left: 10%;
-      "
-    >
-      <span style="color: blanchedalmond">Aswath.</span>`<br /><br />
-      The food in hotel.I had a great experience<br />
-      and I really enjoyed the nature in<br />
-      hotel.The manager of the hotel is<br />
-      number one entertainment.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review for hotelinminutes</title>
+  <link rel="stylesheet" type="text/css" href="./../asserts/css/review.css">
+</head>
+
+<body>
+  <h1>
+    WE APPRECIATE YOUR REVIEW!
+  </h1>
+  <h6>
+    Your review will help us to improve our web hosting quality hotels, and customer services.
+  </h6>
+  <div class="sector">
+    <p>Your personal info</p>
+    <form onsubmit="Review()">
+      <span class="section1">
+        <img src="./../asserts/Images/revpro.png" id="img1">
+      </span>
+      <input type="text" id="username" required><br><br>
+      <span class="section2">
+        <img src="./../asserts/Images/revemail.jpg" id="img2">
+      </span>
+      <input type="email" id="email" required><br><br>
+      <span class="section2">
+        <img src="./../asserts/Images/revaddress.png" id="img2">
+      </span>
+      <input type="text" id="address" required>
+      <p>Rate our overall services</p>
+      <span class="section2">
+        <img src="./../asserts/Images/revheart.jpg" id="img2">
+      </span>
+      <input list="Ratings" name="rating" id="Ratings">
+      <datalist id="Ratings">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </datalist>
+      <p>Write your feedback</p>
+      <span class="section2">
+        <img src="./../asserts/Images/revfeed.jpg" id="img2">
+      </span>
+      <input type="text" id="feedback"><br><br><br>
+      <input type="submit">
+
+    </form>
+    <div id="text">
+
     </div>
-    <br /><br />
-    <div
-      style="
-        background: rgb(197, 107, 126);
-        width: 50%;
-        font-size: 30px;
-        margin-left: 10%;
-      "
-    >
-      <span style="color: blanchedalmond">Rishi.</span>`<br /><br />
-      The food was very tasty and the hotel was hygiene,<br />
-      I like the management of hotel the servers are very humble and polite.<br />
-      I recommed this hotel to have a pleasant feeling by physcially and
-      mentally.
-    </div>
-    <br /><br />
-    <div
-      style="
-        background: rgb(197, 107, 126);
-        width: 50%;
-        font-size: 30px;
-        margin-left: 10%;
-      "
-    >
-      <span style="color: blanchedalmond">Jerushiya.</span>`<br /><br />
-      It's a great feel to stay in this hotel.<br />
-      It makes me feel comfortable and happy.<br />
-      This is the best hotel I've ever stayed.<br />
-      I am grateful to the manager of this hotel who took care of all during the
-      stay
-    </div>
-    <br /><br />
-    <div
-      style="
-        background: rgb(197, 107, 126);
-        width: 50%;
-        font-size: 30px;
-        margin-left: 10%;
-      "
-    >
-      <span style="color: blanchedalmond">Riyas.</span>`<br /><br />
-      The hotel is very neat and clean.<br />
-      This hotel is very pleasant.<br />
-      The service is great and polite.the food is very taste and hygiene the
-      rating is 4.5
-    </div>
-    <br /><br />
-    <div
-      style="
-        background: rgb(197, 107, 126);
-        width: 50%;
-        font-size: 30px;
-        margin-left: 10%;
-      "
-    >
-      <span style="color: blanchedalmond">Swetha.</span>`<br /><br />
-      The rooms were clean<br />
-      and very comfortable.<br />
-      Delicious food
-    </div>
-  </body>
+  </div>
+  <img src="./../asserts/Images/review.gif" id="gift">
+  <script src="./../asserts/javascript/review.js"></script>
+</body>
+
 </html>

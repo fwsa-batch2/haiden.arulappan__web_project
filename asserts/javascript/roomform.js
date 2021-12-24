@@ -1,4 +1,6 @@
 let fullarray = [];
+let total = 50;
+
 
 function pageload() {
     const statgeon = JSON.parse(localStorage.getItem("userList"));
@@ -21,15 +23,15 @@ function booking() {
 
     let emailexists = emailvalid(email);
     let len = fullarray.length;
-    let total = 10;
 
-    if (len >= 9) {
-        alert("The room is full,Please check other rooms")
-    }
-    else if (Room >= 4) {
-        alert("your email has required room please use another email to book more rooms")
-    }
-    else if (emailexists) {
+
+    // if (len >= 9) {
+    //     alert("The room is full,Please check other rooms")
+    // }
+    // if (Room >= 4) {
+    //     alert("your email has required room please use another email to book more rooms")
+    // }
+    if (emailexists) {
         alert("please login other emails")
     }
     else {
@@ -47,6 +49,7 @@ function booking() {
         fullarray.push(form_details);
         localStorage.setItem("userList", JSON.stringify(fullarray))
     }
+    haide();
 }
 function emailvalid(currentemail) {
     // const fullarray = JSON.parse(localStorage.getItem("userList"));
@@ -61,3 +64,28 @@ function emailvalid(currentemail) {
     return used;
 }
 pageload();
+
+function haide() {
+    const pras = localStorage.getItem("userList");
+    const anna = JSON.parse(pras);
+    const raja = JSON.parse(localStorage.getItem("Total_rooms"));
+    const shik = anna.length - 1;
+    const hai = anna[shik];
+    const den = hai.No_of_rooms;
+    let kau = raja - den;
+    total = kau;
+    localStorage.setItem("Total_rooms", JSON.stringify(total));
+    if (kau > 0) {
+        total = kau;
+    }
+    else {
+        total = 0
+    }
+    if (total <= 0) {
+        alert("The Hotel rooms has filled please try on another dates")
+    }
+
+}
+
+haide();
+

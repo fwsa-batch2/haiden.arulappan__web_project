@@ -17,7 +17,16 @@
          hotel deals
       </h1>
       <p class="sub">SAVE TIME AND MONEY BY BOOKING TONIGHT AND BEYOND.</p>
-      <a href="./Pages/category.html"><button>CATEGORY</button></a>
+      <form onsubmit="submitHandler()">
+         <select id="category">
+            <option selected disabled value="null">SEARCH HERE </option>
+            <option value="west india">West India</option>
+            <option value="east india">East India</option>
+            <option value="north india">North India</option>
+            <option value="south india">South India</option>
+         </select>
+         <button type="submit">Go</button>
+      </form>
       <p class="font">
          We encourage all travelers to read this update on how COVID-19 may affect travel
       </p>
@@ -172,6 +181,7 @@
       </div>
 
    </div>
+   <script src="index.js"></script>
 </body>
 
 </html>
