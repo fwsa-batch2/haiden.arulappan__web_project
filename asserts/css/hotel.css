@@ -32,31 +32,42 @@ body{
      font-size: 3vw;
      margin-left: 15%;
  }
- .Trident {
-    margin-top: 40%;
-    margin-left: 5%;
+ .img1{
+     margin-top: 40%;
+     margin-left: 5%;
  }
-.taj img{
-    position: absolute;
+ .img2{
+   margin-left: 5%;
+ }
+ .img3{
     margin-left: 5%;
-}
-.roseate img{
-    position: absolute;
-    margin-top: 5%;
+  }
+  .img4{
     margin-left: 5%;
-}
-.ibis img{
-    position: absolute;
-    margin-top: 150%;
+  }
+  .img5{
     margin-left: 5%;
-}
-.lalit img{
-    position: absolute;
-    margin-top: 180%;
-    margin-left: 5%;
-}
-.button{
-   
-    margin-left: 50%;
-    
-}
+  }
+  .font2{
+      position: absolute;
+      color: white;
+      font-size: 3vw;
+      margin-top: -25%;
+      margin-left: 25%;
+  }
+  .button{
+      position: absolute;
+      margin-left: 75%;
+      margin-top: -10%;
+     
+  }
+  .font1{
+      position: absolute;
+      margin-left: 59%;
+      color: white;
+      margin-top: -25%;
+      font-size: 2vw;
+  }
+  .back{
+     width: 10%;
+  }
