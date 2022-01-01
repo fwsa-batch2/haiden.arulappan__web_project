@@ -55,11 +55,11 @@ body{
       margin-top: -25%;
       margin-left: 25%;
   }
-  .button{
+  .button button{
       position: absolute;
       margin-left: 75%;
       margin-top: -10%;
-     
+     font-size: 1vw;
   }
   .font1{
       position: absolute;
@@ -68,6 +68,12 @@ body{
       margin-top: -25%;
       font-size: 2vw;
   }
-  .back{
+  .back button{
      width: 10%;
+     height: 7vh;
+     font-size: 1.5vw;
+     margin-left: 50%;
+  }
+  .back button:hover{
+      background-color: skyblue;
   }
