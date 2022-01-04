@@ -133,3 +133,13 @@ input[type="submit"]:hover{
 .account a:hover{
     color: brown;
 }
+#button1{
+    width: 20%;
+    height: 3vh;
+    margin-left: 25%;
+}
+#button2{
+    width: 20%;
+    height: 3vh;
+    margin-left: 25%;
+}

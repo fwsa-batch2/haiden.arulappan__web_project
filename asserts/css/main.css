@@ -13,7 +13,7 @@ body{
     text-decoration: none;
     font-size: 1.5vw;
     position: absolute;
-    margin-left: 67%;
+    margin-left: 77%;
     color: white;
 }
 .box .first:hover{
@@ -25,7 +25,7 @@ body{
     font-size: 1.5vw;
     color: white;
     position: absolute;
-    margin-left: 74%;
+    margin-left: 84%;
 }
 .box .second:hover{
     text-decoration:underline;
@@ -36,9 +36,20 @@ body{
    font-size: 1.5vw;
    color: white;
    position: absolute;
-   margin-left: 80%;
+   margin-left: 68%;
 }
 .box .third:hover{
+   text-decoration:underline;
+    text-decoration-color: rgb(248, 4, 4);
+}
+.box .fourth{
+   text-decoration: none;
+   font-size: 1.5vw;
+   color: white;
+   position: absolute;
+   margin-left: 59%;
+}
+.box .fourth:hover{
    text-decoration:underline;
     text-decoration-color: rgb(248, 4, 4);
 }

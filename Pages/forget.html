@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>forget form</title>
-    <link rel="stylesheet" type="text/css" href="../asserts/css/forget.css" />
-  </head>
-  <body>
-    <h1>HOTEL IN MINUTE</h1>
-    <div class="forget">
-      <p><strong>Trouble with logging in?</strong></p>
-      <div class="login1">
-        <form>
-          <div class="form">
-            <label for="mail">Email</label><br />
-            <input
-              type="email"
-              id="mail"
-              name="mail"
-              placeholder="Enter email"
-              required
-            />
-          </div>
-          <br />
-          <div class="form1">
-            <label for="otp">OTP</label><br />
-            <input
-              type="tel"
-              id="otp"
-              name="otp"
-              placeholder="Enter OTP"
-              required
-            />
-          </div>
-          <br />
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
+  <link rel="stylesheet" type="text/css" href="../asserts/css/forget.css" />
+</head>
+
+<body>
+  <h1>HOTEL IN MINUTE</h1>
+  <div class="forget">
+    <p><strong>Trouble with logging in?</strong></p>
+    <div class="login1">
+      <form method="post">
+        <div class="form">
+          <label for="mail">Email</label><br />
+          <input type="email" id="mail" name="mail" placeholder="Enter email" required /><br><br>
+          <input type="button" value="send" id="button1" onclick="sendEmail()">
+        </div>
+      </form>
+      <br />
+      <form>
+
+        <div class="form1">
+          <label for="otp">OTP</label><br />
+          <input type="tel" id="otp" name="otp" placeholder="Enter OTP" required />
+        </div><br>
+        <input type="button" value="Submit" id="button2" onclick="submitHandler()" />
+      </form>
     </div>
-    <p class="account">
-      Already have an account&nbsp;<a href="./../Pages/main1.html">click here</a>
-    </p>
-  </body>
+  </div><br>
+  <p class="account">
+    Already have an account&nbsp;<a href="./../Pages/main1.html">click here</a>
+  </p>
+  <script src="./../asserts/javascript/forget.js"></script>
+</body>
+
 </html>
