@@ -1,61 +1,53 @@
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="../asserts/css/signup.css" />
-  </head>
-  <body>
 
-    <div class="box">
-      <h1>HOTEL IN MINUTES</h1>
-      <h2>SIGN UP</h2>
-      <div class="login">
-        <form onsubmit="submitFunction()">
-          <div class="form">
-            <input type="text" id="username" placeholder="User Name" minlength="5"
-             pattern="[A-Za-z]{3,15}" title="Name cannot be empty" required />
-          </div>
-          <br /><br /><br />
-          <div class="form1">
-            <input type="email" id="gmail" placeholder="Email" required />
-          </div>
-          <br /><br /><br />
-          <div class="form2">
-            <input type="tel" id="number" pattern="[0-9]{10}" placeholder="Ph no" required />
-          </div>
-          <br /><br /><br />
-          <div class="form3">
-            <input
-              type="password"
-              id="create"         
-              placeholder="Create password"
-              pattern="[A-Za-z0-9]{5,12}"
-              title="Suggest some strong password"
-              required
-            />
-          </div>
-          <br /><br /><br />
-          <div class="form4">
-            <input
-              type="password"
-              id="conform"
-              placeholder="Confirm password" 
-              pattern="[A-Za-z0-9]{5,12}"
-              title="Suggest some strong password"
-              required
-            />
-          </div>
-          <br /><br />
-          <div class = "password">
+<head>
+  <link rel="stylesheet" type="text/css" href="../asserts/css/signup.css" />
+  <link rel="icon" type="image/x-icon" href="./asserts/Images/favicon.ico">
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>HOTEL IN MINUTES</h1>
+    <h2>SIGN UP</h2>
+    <div class="login">
+      <form onsubmit="submitFunction()">
+        <div class="form">
+          <input type="text" id="username" placeholder="User Name" minlength="5" pattern="[A-Za-z]{3,15}"
+            title="Name cannot be empty" required />
+        </div>
+        <br /><br /><br />
+        <div class="form1">
+          <input type="email" id="gmail" placeholder="Email" required />
+        </div>
+        <br /><br /><br />
+        <div class="form2">
+          <input type="tel" id="number" pattern="[0-9]{10}" placeholder="Ph no" required />
+        </div>
+        <br /><br /><br />
+        <div class="form3">
+          <input type="password" id="create" placeholder="Create password" pattern="[A-Za-z0-9]{5,12}"
+            title="Suggest some strong password" required />
+        </div>
+        <br /><br /><br />
+        <div class="form4">
+          <input type="password" id="conform" placeholder="Confirm password" pattern="[A-Za-z0-9]{5,12}"
+            title="Suggest some strong password" required />
+        </div>
+        <br /><br />
+        <div class="password">
           <input type="checkbox" id="checking" onchange="checkbox()">Show password
-          </div>
-          <div class="checkbox">
-            <input type="checkbox" required />I agree the terms and condition
-          </div>
-          <div class="submit">
-            <input type="submit" value="Submit"/>
-          </div>
-        </form>
-      </div>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" required />I agree the terms and condition
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
     </div>
-    <script src="../asserts/javascript/form.js"></script>
-  </body>
+  </div>
+  <script src="../asserts/javascript/form.js"></script>
+</body>
+
 </html>

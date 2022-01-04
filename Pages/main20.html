@@ -1,35 +1,26 @@
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="../asserts/css/login.css" />
-  </head>
-  <body>
-    <h1>HOTEL IN MINUTES</h1>
-    <p id="marquee">PLEASE SIGNUP TO BOOK ROOMS</p>
-    <div class="box">
-      <img src="../asserts/Images/loginin.png" width="150px" height="150px" />
-      <div class="login">
-        <form onsubmit = "login()">
-          <div class="form">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../asserts/css/login.css" />
+  <link rel="icon" type="image/x-icon" href="./asserts/Images/favicon.ico">
+</head>
+
+<body>
+  <h1>HOTEL IN MINUTES</h1>
+  <p id="marquee">PLEASE SIGNUP TO BOOK ROOMS</p>
+  <div class="box">
+    <img src="../asserts/Images/loginin.png" width="150px" height="150px" />
+    <div class="login">
+      <form onsubmit="login()">
+        <div class="form">
           <div class="form1">
             <label for="gmail">Email</label><br />
-            <input
-              type="email"
-              id="gmail"
-              name="gmail"
-              placeholder="Enter Email"
-              required
-            />
+            <input type="email" id="gmail" name="gmail" placeholder="Enter Email" required />
           </div>
           <br />
           <div class="form2">
             <label for="secret">Password</label><br />
-            <input
-              type="password"
-              id="secret"
-              name="secret"
-              placeholder="Enter Password"
-              required
-            />
+            <input type="password" id="secret" name="secret" placeholder="Enter Password" required />
           </div>
           <br />
           <div>
@@ -41,10 +32,11 @@
           <br />
           <span id="alert"></span>
           <a href="forget.html">Forget password</a>
-        </form>
-        <p>Don't have an account?<a href="./../Pages/himform19.html">Sign up</a></p>
-      </div>
+      </form>
+      <p>Don't have an account?<a href="./../Pages/himform19.html">Sign up</a></p>
     </div>
-    <script src = "../asserts/javascript/login.js"></script>
-  </body>
+  </div>
+  <script src="../asserts/javascript/login.js"></script>
+</body>
+
 </html>

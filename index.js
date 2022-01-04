@@ -23,3 +23,19 @@ function submitHandler() {
         window.location.href = "./Pages/hotels4.html"
     }
 }
+
+function loginRecomendation() {
+    const loggedinUser = localStorage.getItem('loggedinuser');
+    console.log(loggedinUser);
+    if (loggedinUser === null) {
+        if (confirm("Please login to continue..")) {
+            window.location.href = "./Pages/main1.html";
+        }
+    } else {
+        document.getElementById('sign-up').style.display = "none";
+        document.getElementById('sign-in').style.display = "none";
+
+    }
+}
+
+setTimeout(loginRecomendation, 3000);

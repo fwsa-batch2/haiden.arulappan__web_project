@@ -424,6 +424,9 @@ body{
     font-size: 6vw;
     margin-left: 10%;
  }
-
+#logo{
+   position: absolute;
+   margin-top: -1%;
+}
  
  

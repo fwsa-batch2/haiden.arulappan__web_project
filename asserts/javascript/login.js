@@ -7,6 +7,7 @@ function login() {
     if (isexist) {
         localStorage.setItem("loggedinuser", email);
         window.location.href = "./../../index.html"
+
     }
     else {
         alert("invalid email or password");
