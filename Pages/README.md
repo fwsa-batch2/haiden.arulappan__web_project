@@ -1,5 +1,5 @@
 *
-Features:
+Features:<br>
    *Register(completed).<br>
    *Login(Completed).<br>
    *Forget password(Completed).<br>
