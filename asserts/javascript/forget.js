@@ -12,10 +12,10 @@ function sendEmail() {
     } else {
         Email.send({
             Host: "smtp.gmail.com",
-            Username: "hotelinminutes@gmail.com",
-            Password: "kadalmeen",
+            Username: "minuteshotelin@gmail.com ",
+            Password: "kadalmeenomr ",
             To: useremail,
-            From: "hotelinminutes@gmail.com",
+            From: "minuteshotelin@gmail.com",
             Subject: "This is the otp for your email that you have logging in the hotel in minutes",
             Body: code
         }).then(

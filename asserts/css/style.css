@@ -153,3 +153,18 @@
    margin-left: 45%;
    font-size: 2.5vw;
 }
+#adding_hotels{
+   background-color: rgb(231, 235, 230);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 10px;
+   margin-top: 3%;
+   padding-top: 2%;
+}
+#adding_hotels>div{
+   background-color: rgb(193, 235, 5);
+   height: auto;
+   font-size: 1.5vw;
+   padding: 5px;
+   border-radius: 5px;
+}

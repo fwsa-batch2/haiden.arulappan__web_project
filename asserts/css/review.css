@@ -96,4 +96,10 @@ input[type="submit"]:hover{
     text-decoration: underline;
     text-decoration-color: brown;
 }
+input[type="date"]{
+    width: 89%;
+    height: 5vh;
+    margin-left: 8.1%;
+    font-size: 1.5vw;
+}
 
