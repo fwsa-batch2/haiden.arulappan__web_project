@@ -1,9 +1,9 @@
 1.Register Page:
 
-   Mail cannot be repeat.
-   All inputs must be filled.
-   create password and confirm password should be same.
-   phone number should contain ten numbers.
+    Mail cannot be repeat.
+    All inputs must be filled.
+    create password and confirm password should be same.
+    phone number should contain ten numbers.
 
 2.login page:
     
