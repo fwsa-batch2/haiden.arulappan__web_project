@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adding hotels</title>
+</head>
+
+<body>
+
+    <p id="adding">
+        Adding Hotels
+    </p>
+    <div class="addingmain">
+        <form class="" onsubmit="submitHandler(event)">
+            <input type="text" placeholder="Hotel name" id="hotelname" title="Hotel name cannot be empty" required><br>
+
+            <input type="text" placeholder="Owners Name" id="ownername" title="Please enter owner name" required><br>
+
+            <input type="tel" placeholder="Phone number" id="ph_number" pattern="[0-9]{10}"
+                title="please enter the valid number" required><br>
+
+            <input type="url" placeholder="Enter the hotel image link" id="hotelimage" required>
+    </div>
+    <input type="submit" id="buttonsubmit" value="submit">
+
+    </form>
+    <script src="./../asserts/javascript/addinghotel.js"></script>
+</body>
+
+</html>
