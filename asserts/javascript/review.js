@@ -8,12 +8,11 @@ function pageload() {
     }
 }
 
-function Review() {
+function Review(event) {
     event.preventDefault();
 
     let name = document.getElementById("username").value;
     let email = document.getElementById("email").value;
-    let address = document.getElementById("address").value;
     let ratings = document.getElementById("Ratings").value;
     let feedback = document.getElementById("feedback").value;
 

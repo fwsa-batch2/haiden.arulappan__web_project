@@ -7,4 +7,4 @@ function checkpassword() {
     else {
         return false;
     }
-};
+}

@@ -1,5 +1,5 @@
 
-function login() {
+function login(event) {
     event.preventDefault();
     let email = document.getElementById("gmail").value;
     let password = document.getElementById("secret").value;

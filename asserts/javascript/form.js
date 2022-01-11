@@ -10,7 +10,7 @@ function pageload() {
     console.groupEnd("onpageload");
 }
 
-function submitFunction() {
+function submitFunction(event) {
     event.preventDefault();
     console.group("submithandler");
 
@@ -22,7 +22,7 @@ function submitFunction() {
     const emailexists = emailvalid(email);
     console.log(emailexists);
 
-    // const namevalid = validation();
+
 
     if (createpassword != confirmpassword) {
         alert("Password mismatched");
@@ -46,12 +46,11 @@ function submitFunction() {
     }
     console.groupEnd("submithandler");
 
-};
+}
 
 function emailvalid(currentemail) {
-    //const fullarray = JSON.parse(localStorage.getItem("userList"));
     let used = false;
-    for (i = 0; i < fullarray.length; i++) {
+    for (let i = 0; i < fullarray.length; i++) {
         const email = fullarray[i].Gmail;
         if (currentemail == email) {
             used = true;
@@ -72,18 +71,5 @@ function checkbox() {
         document.getElementById("conform").type = "password";
     }
 }
-
-// function validation() {
-//     var name = document.getElementById("username").value;///get id with value 
-//     var usernamepattern = /^[A-Za-z]$/;////Regular expression
-//     if (usernamepattern == name) {
-//         document.getElementById("username").style.backgroundColor = 'yellow';
-//     }
-//     else {
-//         alert("please enter a valid name")
-//     }
-// }
-
-
 
 pageload();

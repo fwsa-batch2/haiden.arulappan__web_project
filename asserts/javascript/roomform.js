@@ -1,15 +1,6 @@
 let fullarray = [];
 
-
-
-// function pageload() {
-//     const statgeon = JSON.parse(localStorage.getItem("userList"));
-//     if (statgeon != null) {
-//         fullarray = statgeon;
-//     }
-// }
-
-function booking() {
+function booking(event) {
     event.preventDefault();
 
     let name = document.getElementById("name").value;
@@ -21,20 +12,10 @@ function booking() {
     let check_in = document.getElementById("date1").value;
     let check_out = document.getElementById("date2").value;
     const hotel_name = JSON.parse(localStorage.getItem('hotelName'));
-    // let emailexists = emailvalid(email);
-    let len = fullarray.length;
 
     const roomAvail = JSON.parse(localStorage.getItem('Available-Rooms'));
 
-    // if (len >= 9) {
-    //     alert("The room is full,Please check other rooms")
-    // }
-    // if (Room >= 4) {
-    //     alert("your email has required room please use another email to book more rooms")
-    // }
-    // if (emailexists) {
-    //     alert("please login other emails")
-    //}
+
     if (roomAvail <= 0) {
         alert('Room are Full, Please try again later!!')
     }
@@ -56,24 +37,10 @@ function booking() {
     }
     haide();
 }
-// function emailvalid(currentemail) {
-//     // const fullarray = JSON.parse(localStorage.getItem("userList"));
-//     let used = false;
-//     for (i = 0; i < fullarray.length; i++) {
-//         const email = fullarray[i].Gmail;
-//         if (currentemail == email) {
-//             used = true;
-//             break;
-//         }
-//     }
-//     return used;
-// }
-// pageload();
 
 function haide() {
 
     let getFromLs = localStorage.getItem("userDetails");
-    getFromLs = JSON.parse(getFromLs);
     const totalRoom = 50;
     const roomAvail = JSON.parse(localStorage.getItem('Available-Rooms'));
     let noOfRooms = document.getElementById('rooms').value;
