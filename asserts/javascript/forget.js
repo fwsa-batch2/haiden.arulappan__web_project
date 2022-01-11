@@ -1,5 +1,5 @@
 function otp() {
-    const random = Math.random();
+    const number = Math.random();
     return Math.floor((random * 9999) + 1111);
 }
 let code = otp();
