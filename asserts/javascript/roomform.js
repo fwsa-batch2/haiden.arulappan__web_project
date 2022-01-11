@@ -40,7 +40,6 @@ function booking(event) {
 
 function haide() {
 
-    let getFromLs = localStorage.getItem("userDetails");
     const totalRoom = 50;
     const roomAvail = JSON.parse(localStorage.getItem('Available-Rooms'));
     let noOfRooms = document.getElementById('rooms').value;

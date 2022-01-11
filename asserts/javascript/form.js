@@ -50,7 +50,8 @@ function submitFunction(event) {
 
 function emailvalid(currentemail) {
     let used = false;
-    for (let i = 0; i < fullarray.length; i++) {
+    let len = fullarray.length;
+    for (let i = 0; i < len; i++) {
         const email = fullarray[i].Gmail;
         if (currentemail == email) {
             used = true;
