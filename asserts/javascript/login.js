@@ -20,7 +20,7 @@ function isuserexist(paramemail, parampassword) {
     const len = userdetails.length;
     console.log(len);
 
-    for (i = 0; i < len; i++) {
+    for (let i = 0; i < len; i++) {
         const user = userdetails[i];
         const useremail = user.Gmail;
         const userpassword = user.Create;
