@@ -1,4 +1,4 @@
-*
+
 Features:<br>
    *Register(completed).<br>
    *Login(Completed).<br>
@@ -37,5 +37,10 @@ Features:<br>
 
     *The user can see their booking hotels.
     *And with their details.
+
+###Adding Hotels:
+
+    *The admin can add hotels.
+    *But n
 
 
