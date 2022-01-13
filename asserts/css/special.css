@@ -1,0 +1,293 @@
+body{
+    background-color: black;
+}
+#season1{
+     background-image:url("./../Images/spclwinterback.jpg");
+     width: 50%;
+     height: 80vh;
+     margin-left: 25%;
+      display: none;
+}
+#img1{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+#img2{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    margin-left: -38%;
+    margin-top: 2%;
+}
+#font1{
+    position: absolute;
+    color: rgb(253, 253, 253);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    margin-top: -20%;
+    margin-left: 19%;
+}
+#img3{
+    position: absolute;
+    width: 7%;
+    margin-left: -38%;
+    margin-top: 8%;
+}
+#img4{
+    position: absolute;
+    width: 13%;
+    margin-top: 23%;
+    margin-left: -40%;
+}
+#price{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 6%;
+    font-size: 1.5vw;
+}
+#img5{
+    position: absolute;
+    width: 13%;
+    margin-top: 23%;
+    margin-left: -24%;
+}
+#price1{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 6%;
+    font-size: 1.5vw;
+    color: white;
+}
+#img6{
+    position: absolute;
+    width: 13%;
+    height: 25vh;
+    margin-top: 23%;
+    margin-left: -8%;
+}
+#price2{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 6%;
+    font-size: 1.5vw;
+    color: white;
+}
+#season2{
+    background-color: white;
+    width: 40%;
+    height: 110vh;
+    margin-left: 25%;
+    display: none;
+    position: relative;
+}
+#yellow{
+    background-color: yellow;
+    position: absolute;
+    width: 50%;
+    height: 50vh;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+#img7{
+   width: 100%;
+   margin-top: 25%;
+}
+#img8{
+    position: absolute;
+    width: 15%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#font{
+    position: absolute;
+    color: white;
+    margin-left: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 45%;
+    font-size: 3vw;
+}
+#font2{
+    position: absolute;
+    color: rgb(3, 3, 3);
+    margin-left: 50%;
+    margin-top: 54%;
+    font-size: 2vw;
+}
+h1{
+    color: rgb(2, 2, 2);
+    font-size: 2.5vw;
+    position: absolute;
+    margin-top: 70%;
+}
+ul{
+    position: absolute;
+    margin-top: 78%;
+    font-size: 2vw;
+}
+#main{
+    background-color: yellow;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    margin-top: 133%;
+}
+#img9{
+    position: absolute;
+    width: 20%;
+    margin-top: 70%;
+    margin-left: 70%;
+}
+#season3{
+    background-color: rgb(8, 8, 61);
+    width: 40%;
+    height: 100vh;
+    margin-left: 25%;
+    display: none;
+    position: relative;
+}
+#image{
+    width: 50%;
+    border-radius: 130px;
+    margin-top: 5%;
+}
+#image1{
+    width: 50%;
+    border-radius: 130px;
+    margin-left: 45%;
+}
+#font3{
+    font-size: 4vw;
+    color: white;
+    position: absolute;
+}
+#image2{
+    width: 50%;
+    border-radius: 130px;
+    position: absolute;
+    margin-top:70%;
+    margin-left: -94%;
+}
+#image3{
+    width: 40%;
+    position: absolute;
+    margin-left: -93%;
+    margin-top: 5%;
+}
+#image4{
+    position: absolute;
+    width: 40%;
+    margin-top: -40%;
+    margin-left: -40%;
+}
+#font4{
+    font-size: 3vw;
+    margin-left: 55%;
+    margin-top: 38%;
+}
+#season4{
+    background-color: gray;
+    width: 40%;
+    height: 110vh;
+    margin-left: 25%;
+    display: none;
+}
+#image5{
+    position: absolute;
+    width: 20%;
+    height: 60vh;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#image6{
+    position: absolute;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+#font5{
+    color: white;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8vw;
+    margin-top: 13%;
+    margin-left: 8%;
+}
+#image7{
+    margin-left: 57%;
+}
+#image8{
+    margin-left: 64%;
+}
+#image9{
+    width: 55%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#font6{
+    font-size: 3vw;
+    margin-left: 63%;
+    margin-top: -35%;
+}
+input[type="date"]{
+    width: 39%;
+    height: 5vh;
+    margin-left: 8.1%;
+    font-size: 1.5vw;
+    margin-left: 30%;
+}
+input[type="submit"]{
+    width: 10%;
+    height: 4vh;
+    border-radius: 50px;
+    margin-left: 45%;
+}
+#head{
+    font-size: 3vw;
+    color: white;
+    margin-left: 25%;
+}
+#season5{
+    margin-left: 30%;
+    width: 40%;
+    height: 70vh;
+    display: none;
+}
+#season5 img{
+    margin-left: 30%;
+    width: 60%;
+    height: 70vh;
+}
+#season6{
+    display: none;
+}
+#season6 img{
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+}
+#season7{
+    display: none;
+}
+#season7 img{
+    width: 50%;
+    height: 70vh;
+    margin-left: 25%;
+}
+#season8{
+    display:none;
+}
+#season8 img{
+    width: 50%;
+    height: 70vh;
+    margin-left: 25%;
+}
+#season9{
+    display: none;
+}
+#season9 img{
+    width: 50%;
+    height: 70vh;
+    margin-left: 25%;
+}
