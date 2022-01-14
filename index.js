@@ -1,4 +1,4 @@
-function submitHandler() {
+function submitHandler(event) {
     event.preventDefault();
 
     let santhanu = document.getElementById("category").value;
