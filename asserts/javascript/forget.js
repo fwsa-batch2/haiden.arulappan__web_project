@@ -1,6 +1,8 @@
 function otp() {
-    const random = Math.random();
-    return Math.floor((random * 9999) + 1111);
+    let array = new Uint16Array(1);
+    self.crypto.getRandomValues(array);
+    console.log(array);
+    return array;
 }
 let code = otp();
 
@@ -17,7 +19,7 @@ function sendEmail() {
             To: useremail,
             From: "minuteshotelin@gmail.com",
             Subject: "This is the otp for your email that you have logging in the hotel in minutes",
-            Body: code
+            Body: "Your OTP is : " + code
         }).then(
             alert('Mail sent successfully!')
         );
