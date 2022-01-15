@@ -27,7 +27,7 @@ function submitHandler(event) {
     console.log(hoteldetails);
     hoteldetails.push(newhotelDetails);
     localStorage.setItem("details", JSON.stringify(hoteldetails));
-    window.location.href = ""
+    window.open("./../../Pages/listhotel.html")
 
 }
 pageload();

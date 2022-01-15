@@ -1,0 +1,122 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+body{
+    background-image: url('./../Images/him2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box{
+    width: 40%;
+    background-color: white;
+    height: 40vh;
+    margin-left: 30%;
+    margin-top: 14%;
+    border-radius: 10px;
+}
+input[type="password"]{
+    margin-top: 5%;
+    margin-left: 35%;
+    height: 5vh;
+    width: 30%;
+    padding-left: 2%;
+    font-size: 1vw;
+    text-align: center;
+}
+input[type="submit"]{
+    border: none;
+    background-color: #ff6f00;
+    color: white;
+    height: 4vh;
+    width: 13%;
+    margin-left: 45%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    opacity: .9;
+}
+#head{
+    font-weight: bolder;
+    font-size: 2vw;
+    text-align: center;
+    color: #994300;
+}
+#shead{
+    text-align: center;
+    opacity: .8;
+    color: #331600;
+}
+.addingmain{
+    background-color: rgb(247, 239, 239, .9);
+    border-radius: 10px;
+    width: 30%;
+    height: 50vh;
+    margin-left: 35%;
+}
+#img1{
+    width: 10%;
+}
+input[type="text"]{
+    border: none;
+    background-color: #fff0e5;
+    height: 6vh;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 4%;
+    padding-left: 4%;
+    margin-left: 18%;
+    font-size: 1vw;
+    color: #994200;
+}
+input[type="tel"]{
+    border: none;
+    background-color: #fff0e5;
+    height: 6vh;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 4%;
+    padding-left: 4%;
+    margin-left: 18%;
+    font-size: 1vw;
+    color: #994200;
+}
+input[type="url"]{
+    border: none;
+    background-color: #fff0e5;
+    height: 6vh;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 4%;
+    padding-left: 4%;
+    margin-left: 18%;
+    font-size: 1vw;
+    color: #994200;
+}
+input[type="url"]::placeholder{
+    color:#e56300;
+}
+input[type="tel"]::placeholder{
+    color:#e56300;
+}
+input[type="text"]::placeholder{
+    color:#e56300;
+}
+#buttonsubmit{
+    height: 5vh;
+    width: 20%;
+    font-size: larger;
+    float: right;
+    margin-right: 38%;
+}
+#adding{
+    font-weight: bolder;
+    color: #ff8b33;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-top: -1%;
+}
+
+
+
+

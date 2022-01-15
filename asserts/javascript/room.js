@@ -1,13 +1,12 @@
 
-let aswath = localStorage.getItem("reviewer");
-let haiden = JSON.parse(aswath);
-console.log(haiden);
+let Getdetails = localStorage.getItem("reviewer");
+let parsedetails = JSON.parse(Getdetails);
 let text = "";
-let len = haiden.length;
+let len = parsedetails.length;
 for (let i = 0; i < len; i++) {
-    text += "Name:" + haiden[i].Name + "<br>" +
-        "Ratings:" + haiden[i].Ratings + "<br>" +
-        "feedback:" + haiden[i].Feedback + "<br>" + "<hr>";
+    text += "Name:" + parsedetails[i].Name + "<br>" +
+        "Ratings:" + parsedetails[i].Ratings + "<br>" +
+        "feedback:" + parsedetails[i].Feedback + "<br>" + "<hr>";
 
 }
 document.getElementById("enter").innerHTML = text;

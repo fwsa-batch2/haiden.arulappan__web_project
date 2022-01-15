@@ -19,7 +19,7 @@ function sendEmail() {
             To: useremail,
             From: "minuteshotelin@gmail.com",
             Subject: "This is the otp for your email that you have logging in the hotel in minutes",
-            Body: "Your OTP is : " + code
+            Body: "Your OTP is : <strong style='color:#000; font-size:1vw;'>" + code + "</strong><br>Thank you"
         }).then(
             alert('Mail sent successfully!')
         );

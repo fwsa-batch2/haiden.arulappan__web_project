@@ -6,15 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>adding hotels</title>
+    <link rel="stylesheet" type="text/css" href="./../asserts/css/admin.css">
 </head>
 
 <body>
-
+    <img src="./../asserts/Images/himlogo.png" alt="logo" id="img1">
     <p id="adding">
         Adding Hotels
     </p>
     <div class="addingmain">
-        <form class="" onsubmit="submitHandler(event)">
+
+        <br><br>
+        <form onsubmit="submitHandler(event)">
             <input type="text" placeholder="Hotel name" id="hotelname" title="Hotel name cannot be empty" required><br>
 
             <input type="text" placeholder="Owners Name" id="ownername" title="Please enter owner name" required><br>
@@ -22,9 +25,10 @@
             <input type="tel" placeholder="Phone number" id="ph_number" pattern="[0-9]{10}"
                 title="please enter the valid number" required><br>
 
-            <input type="url" id="hotelimage" placeholder="Enter your hotel image url" required>
+            <input type="url" id="hotelimage" placeholder="Image url" required><br>
+            <input type="submit" id="buttonsubmit" value="submit">
     </div>
-    <input type="submit" id="buttonsubmit" value="submit">
+
 
     </form>
     <script src="./../asserts/javascript/addinghotel.js"></script>
