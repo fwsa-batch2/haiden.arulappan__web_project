@@ -29,7 +29,7 @@ function loginRecomendation() {
     console.log(loggedinUser);
     if (loggedinUser === null) {
         if (confirm("Please login to continue..")) {
-            window.location.href = "./Pages/main1.html";
+            window.location.href = "./Pages/signup.html";
         }
     } else {
         document.getElementById('sign-up').style.display = "none";

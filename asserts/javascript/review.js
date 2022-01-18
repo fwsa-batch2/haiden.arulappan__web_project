@@ -29,7 +29,7 @@ function Review(event) {
         fullarray.push(review_list);
         console.log(fullarray);
         localStorage.setItem("reviewer", JSON.stringify(fullarray));
-        // window.location.href = "./../../index.html"
+        window.location.href = "./../../Pages/our_reviews.html"
         sub.innerText = "Thank you for reviewing us"
     }
     else {

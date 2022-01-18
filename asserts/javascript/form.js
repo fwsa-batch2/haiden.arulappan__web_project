@@ -41,7 +41,7 @@ function submitFunction(event) {
         }
         fullarray.push(customer_details);
         localStorage.setItem("userList", JSON.stringify(fullarray))
-        window.location.href = "../index.html";
+        window.location.href = "./../../Pages/main1.html";
         console.table(customer_details);
     }
     console.groupEnd("submithandler");
