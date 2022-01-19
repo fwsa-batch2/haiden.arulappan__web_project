@@ -1,11 +1,11 @@
-let fullarray = [];
+let Totaluserlist = [];
 
 function pageload() {
     console.group("onpageload");
-    const statgeon = JSON.parse(localStorage.getItem("userList"));
-    console.table(statgeon);
-    if (statgeon != null) {
-        fullarray = statgeon;
+    const gettinguserlist = JSON.parse(localStorage.getItem("userList"));
+    console.table(gettinguserlist);
+    if (gettinguserlist != null) {
+        Totaluserlist = gettinguserlist;
     }
     console.groupEnd("onpageload");
 }
@@ -39,8 +39,8 @@ function submitFunction(event) {
             "Create": createpassword,
             "Confirm": confirmpassword,
         }
-        fullarray.push(customer_details);
-        localStorage.setItem("userList", JSON.stringify(fullarray))
+        Totaluserlist.push(customer_details);
+        localStorage.setItem("userList", JSON.stringify(Totaluserlist))
         window.location.href = "./../../Pages/main1.html";
         console.table(customer_details);
     }
@@ -50,9 +50,9 @@ function submitFunction(event) {
 
 function emailvalid(currentemail) {
     let used = false;
-    let len = fullarray.length;
+    let len = Totaluserlist.length;
     for (let i = 0; i < len; i++) {
-        const email = fullarray[i].Gmail;
+        const email = Totaluserlist[i].Gmail;
         if (currentemail == email) {
             used = true;
             break;

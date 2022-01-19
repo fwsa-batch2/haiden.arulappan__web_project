@@ -1,10 +1,10 @@
-let fullarray = [];
+let ReviewerList = [];
 
 function pageload() {
 
-    let statgeon = JSON.parse(localStorage.getItem("reviewer"));
-    if (statgeon != null) {
-        fullarray = statgeon;
+    let gettingReviewerList = JSON.parse(localStorage.getItem("reviewer"));
+    if (gettingReviewerList != null) {
+        ReviewerList = gettingReviewerList;
     }
 }
 
@@ -26,9 +26,9 @@ function Review(event) {
             "Ratings": ratings,
             "Feedback": feedback
         }
-        fullarray.push(review_list);
+        ReviewerList.push(review_list);
         console.log(fullarray);
-        localStorage.setItem("reviewer", JSON.stringify(fullarray));
+        localStorage.setItem("reviewer", JSON.stringify(ReviewerList));
         window.location.href = "./../../Pages/our_reviews.html"
         sub.innerText = "Thank you for reviewing us"
     }
