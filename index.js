@@ -30,12 +30,28 @@ function loginRecomendation() {
     if (loggedinUser === null) {
         if (confirm("Please login to continue..")) {
             window.location.href = "./Pages/signup.html";
+
         }
     } else {
         document.getElementById('sign-up').style.display = "none";
         document.getElementById('sign-in').style.display = "none";
+        document.getElementById('logout').style.display = "block"
 
     }
 }
+function Logoutuser() {
+    const loggedinUser = localStorage.getItem('loggedinuser');
+    localStorage.removeItem("loggedinuser");
+    localStorage.removeItem("userList");
+    document.getElementById("logout").style.display = "none";
+    document.getElementById('sign-up').style.display = "block";
+    document.getElementById('sign-in').style.display = "block";
+    if (loggedinUser === null) {
+        if (confirm("Please login to continue..")) {
+            window.location.href = "./Pages/signup.html";
+        }
+    }
+    setTimeout(Logoutuser, 2000);
+}
 
-setTimeout(loginRecomendation, 3000);
+setTimeout(loginRecomendation, 2000);

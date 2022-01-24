@@ -465,5 +465,11 @@ body{
    text-decoration: none;
    color: black;
 }
- 
- 
+#logout{
+   position: absolute;
+   width: 10%;
+   color:black;
+   margin-left: 78%;
+   margin-top: 0%;
+   display: none;
+}

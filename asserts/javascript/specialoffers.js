@@ -1,8 +1,13 @@
 
-
+/**
+ * Search by date
+ */
 function submitHandler(event) {
     event.preventDefault();
+
     let input = document.getElementById("season").value;
+    //let inputDate = new Date(input);
+    //let month = inputDate.getMonth();
     const dateMonth = input.slice(5);
 
     const date = dateMonth.slice(3);
@@ -47,4 +52,24 @@ function submitHandler(event) {
     else {
         alert("please enter the valid date")
     }
+}
+
+/**
+ * This function returns all offers
+ * @returns 
+ */
+function getAllOffers() {
+    //axios.get(url).then(data)
+    //localStorage.getItem("OFFERS");
+    const offers = [{ name: "Season 1", price: 1000 }, { name: "Searson 2", price: 2000 }];
+    return offers;
+}
+
+/**
+ * Search offers based on price, season,
+ */
+function searchOffers(inputDate) {
+    const offers = getAllOffers();
+    const filteredResults = offers.filter(obj => obj.date == inputDate);
+    return filteredResults;
 }
