@@ -6,7 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.box{
+.main-box{
     width: 40%;
     background-color: white;
     height: 40vh;
@@ -36,18 +36,18 @@ input[type="submit"]{
 input[type="submit"]:hover{
     opacity: .9;
 }
-#head{
+#main-heading{
     font-weight: bolder;
     font-size: 2vw;
     text-align: center;
     color: #994300;
 }
-#shead{
+#private-code{
     text-align: center;
     opacity: .8;
     color: #331600;
 }
-.addingmain{
+.formbox{
     background-color: rgb(247, 239, 239, .9);
     border-radius: 10px;
     width: 30%;
@@ -109,7 +109,7 @@ input[type="text"]::placeholder{
     float: right;
     margin-right: 38%;
 }
-#adding{
+#hotel-adding{
     font-weight: bolder;
     color: #ff8b33;
     text-align: center;

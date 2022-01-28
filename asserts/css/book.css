@@ -6,39 +6,39 @@ h1{
     font-size: 3.5vw;
     margin-left: 38%;
 }
-.image{
+.hotel-images{
     margin-top: 5%;
 }
-.img1{
+.particularhotel-image1{
     position: absolute;
     margin-left:1%;
 }
-.img2{
+.particularhotel-image2{
     position: absolute;
     margin-left: 35%;
 }
-.img3{
+.particularhotel-image3{
     position: absolute;
     margin-left: 69%;
 }
-.font{
+.about-hotel{
     color: white;
     margin-top: 32%;
     font-size: 2vw;
 }
-.img4{
+.kingbed-image{
     position: absolute;
     margin-left: 15%;
     margin-top: 5%;
 }
-.font1{
+.kingbed-head{
     position: absolute;
     color: tomato;
     font-size: 3vw;
     margin-left: 25%;
     margin-top: 6%;
 }
-.font2{
+.kingbed-sub{
     position: absolute;
     color: white;
     font-size: 2vw;
@@ -57,26 +57,26 @@ button{
 button:hover{
     background-color: skyblue;
 }
-.img5{
+.queenbed-image{
     position: absolute;
     margin-left: 15%;
     margin-top: 40%;
 }
-.font3{
+.queenbed-head{
     position: absolute;
     color: tomato;
     font-size: 3vw;
     margin-top: 42%;
     margin-left: 25%;
 }
-.font4{
+.queenbed-sub{
     position: absolute;
     color: white;
     font-size: 2vw;
     margin-left: 55%;
     margin-top: 44%;
 }
-.button1{
+.roombook-button1{
     position: absolute;
     width: 8%;
     height: 5%;
@@ -85,26 +85,26 @@ button:hover{
     margin-left: 65%;
     margin-top: 60%;
 }
-.img6{
+.Cabanabed-image{
     position: absolute;
     margin-left: 15%;
     margin-top: 75%;
 }
-.font5{
+.cabanabed-main{
     position: absolute;
     color: tomato;
     font-size: 3vw;
     margin-top: 76%;
     margin-left:25% ;
 }
-.font6{
+.cabanabed-sub{
     position: absolute;
     color: white;
     font-size: 2vw;
     margin-left: 55%;
     margin-top: 79%;
 }
-.button2{
+.roombook-button2{
     position: absolute;
     width: 8%;
     height: 5%;
@@ -113,26 +113,26 @@ button:hover{
     margin-left: 65%;
     margin-top: 96%;
 }
-.img7{
+.hollywoodbed-image{
     position: absolute;
     margin-left: 15%;
     margin-top: 110%;
 }
-.font7{
+.hollywoodbed-head{
     position: absolute;
     color: tomato;
     font-size: 3vw;
     margin-top: 112%;
     margin-left:22% ;
 }
-.font8{
+.hollywoodbed-sub{
     position: absolute;
     color: white;
     font-size: 2vw;
     margin-left: 55%;
     margin-top: 115%;
 }
-.button3{
+.roombook-button3{
     position: absolute;
     width: 8%;
     height: 5%;
@@ -141,7 +141,7 @@ button:hover{
     margin-left: 65%;
     margin-top: 132%;
 }
-.back button{
+.button-back button{
     width: 10%;
     height: 10%;
     font-size: 2vw;

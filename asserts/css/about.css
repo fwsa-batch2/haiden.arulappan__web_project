@@ -4,7 +4,7 @@ body{
 .main{
     margin-left: 5%;
 }
-.font{
+.main-heading{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5vw;
     position: absolute;
@@ -12,7 +12,7 @@ body{
     margin-top: -27%;
     margin-left: 20%;
 }
-.font1{
+.sub-heading{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 5vw;
     position: absolute;
@@ -20,11 +20,11 @@ body{
     margin-top: -24%;
     margin-left: 20%;
 }
-.img1{
+.sub-image{
     margin-left: 15%;
     margin-top: 6%;
 }
-.font2{
+.sub-paragraph{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -32,10 +32,10 @@ body{
     margin-left: 55%;
     margin-top: -15%;
 }
-.img2{
+.sub-image2{
     margin-left: 55%;
 }
-.font3{
+.sub-paragraph2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -43,11 +43,11 @@ body{
     margin-left: 18%;
     margin-top: -13%;
 }
-.img3{
+.sub-image3{
     margin-left: 15%;
     margin-top: 5%;
 }
-.font4{
+.sub-paragraph3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -55,11 +55,11 @@ body{
     margin-left: 55%;
     margin-top: -14%;   
 }
-.img4{
+.sub-image4{
     margin-left: 55%;
     margin-top: 5%;
 }
-.font5{
+.sub-paragraph4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -67,7 +67,7 @@ body{
     margin-top: -14%;
     margin-left: 18%;
 }
-.back button{
+.button-back button{
     width: 10%;
     height: 10%;
     font-size: 2vw;
@@ -75,10 +75,10 @@ body{
     margin-left: 45%;
     border-radius: 10px;
 }
-.back button:hover{
+.button-back button:hover{
     background-color: skyblue;
 }
-.font6{
+.hotel-name{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -86,7 +86,7 @@ body{
     margin-top: -35%;
     margin-left: 20%;
 }
-.font7{
+.privacyterms{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4.5vw;
     position: absolute;
@@ -94,14 +94,14 @@ body{
     margin-top:-30%;
     margin-left: 20%;
 }
-.font8{
+.sub-about{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5vw;
     color: white;
     margin-left: 5%;
     margin-top: 5%;
 }
-.font9{
+.about-website{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.5vw;
     color: white;   
