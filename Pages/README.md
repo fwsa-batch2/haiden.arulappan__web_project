@@ -1,11 +1,12 @@
 
-###Features:<br>
-   *Register(completed).<br>
-   *Login(Completed).<br>
-   *Forget password(Completed).<br>
-   *Review page(Completed).<br>
-   *My bookings(Completed).<br>
-   *Adding Hotels(Completed).<br>
+###Features:
+
+   *Register(completed).
+   *Login(Completed).
+   *Forget password(Completed).
+   *Review page(Completed).
+   *My bookings(Completed).
+   *Adding Hotels(Completed).
    *Room booking(In Progress).
 
 
