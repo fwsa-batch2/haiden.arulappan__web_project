@@ -1,4 +1,6 @@
-<h1>Features:</h1><br>
+<h1>Hotel in Minutes</h1>
+
+<h2>Features:</h2><br>
 
    <h4>*Register(completed).</h4>
    <h4>*Login(Completed).</h4>
