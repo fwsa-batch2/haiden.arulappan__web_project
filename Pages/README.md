@@ -1,12 +1,12 @@
 <h1>Features:</h1><br>
 
-   *Register(completed).<br>
-   *Login(Completed).<br>
-   *Forget password(Completed).<br>
-   *Review page(Completed).<br>
-   *My bookings(Completed).<br>
-   *Adding Hotels(Completed).<br>
-   *Room booking(In Progress).
+   <h4>*Register(completed).</h4><br>
+   <h4>*Login(Completed).</h4><br>
+   <h4>*Forget password(Completed).</h4><br>
+   <h4>*Review page(Completed).</h4><br>
+   <h4>*My bookings(Completed).</h4><br>
+   <h4>*Adding Hotels(Completed).</h4><br>
+   <h4>*Room booking(In Progress).</h4>
 
 
 ###Register Page:
