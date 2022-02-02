@@ -8,7 +8,7 @@ function submitHandler(event) {
     }
 
     if (santhanu == "west india") {
-        window.location.href = "./Pages/hotels1.html"
+        window.open("./../hotelinminuteapp-ui/Pages/hotels1.html")
     }
 
     else if (santhanu == "east india") {

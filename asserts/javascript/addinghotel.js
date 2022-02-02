@@ -27,7 +27,7 @@ function submitHandler(event) {
     console.log(hoteldetails);
     hoteldetails.push(newhotelDetails);
     localStorage.setItem("details", JSON.stringify(hoteldetails));
-    window.open("./../../Pages/listhotel.html")
+    window.open("./../../../hotelinminuteapp-ui/Pages/listhotel.html")
 
 }
 pageload();

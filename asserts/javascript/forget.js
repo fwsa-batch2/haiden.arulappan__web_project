@@ -30,7 +30,7 @@ function sendEmail() {
 function submitHandler() {
     const codeFromUser = document.getElementById('otp').value;
     if (code == codeFromUser) {
-        window.location.href = "./../../index.html"
+        window.open("./../../../hotelinminuteapp-ui/index.html")
     } else {
         alert('otp is invalid');
     }

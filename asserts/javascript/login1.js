@@ -5,7 +5,7 @@ function login(event) {
     const isexist = isuserexist(email, password);
     if (isexist) {
         localStorage.setItem("loggedinuser", email);
-        window.location.href = "./../../Pages/himform.17.html"
+        window.open("./../../../hotelinminuteapp-ui/Pages/himform.17.html")
     }
     else {
         alert("invalid email or password");
