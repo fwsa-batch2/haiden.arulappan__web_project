@@ -48,7 +48,7 @@ function Logoutuser() {
     document.getElementById('sign-in').style.display = "block";
     if (loggedinUser === null) {
         if (confirm("Please login to continue..")) {
-            window.location.href = "./Pages/signup.html";
+            window.location.href = "./Pages/main1.html";
         }
     }
     setTimeout(Logoutuser, 2000);
