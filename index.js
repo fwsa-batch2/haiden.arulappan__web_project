@@ -8,19 +8,19 @@ function submitHandler(event) {
     }
 
     if (santhanu == "west india") {
-        window.open("./../hotelinminuteapp-ui/Pages/hotels1.html")
+        window.open("./Pages/hotels1.html")
     }
 
     else if (santhanu == "east india") {
-        window.location.href = "./Pages/hotels2.html"
+        window.open("./Pages/hotels2.html")
     }
 
     else if (santhanu == "north india") {
-        window.location.href = "./Pages/hotels3.html"
+        window.open("./Pages/hotels3.html")
     }
 
     else {
-        window.location.href = "./Pages/hotels4.html"
+        window.open("./Pages/hotels4.html")
     }
 }
 
