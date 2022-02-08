@@ -34,6 +34,7 @@ function booking(event) {
 
         fullarray.push(form_details);
         localStorage.setItem("userDetails", JSON.stringify(fullarray))
+        window.open('./../../Pages/payment.html')
     }
     haide();
 }
