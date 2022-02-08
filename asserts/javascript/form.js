@@ -41,7 +41,7 @@ function submitFunction(event) {
         }
         Totaluserlist.push(customer_details);
         localStorage.setItem("userList", JSON.stringify(Totaluserlist))
-        window.open('./../../../hotelinminuteapp-ui/Pages/main1.html')
+        window.open('./../../Pages/main1.html')
         console.table(customer_details);
     }
     console.groupEnd("submithandler");
